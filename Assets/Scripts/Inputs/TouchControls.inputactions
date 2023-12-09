@@ -1,0 +1,34 @@
+{
+    "name": "TouchControls",
+    "maps": [
+        {
+            "name": "Gameplay",
+            "id": "eab1adcc-6361-41a4-973e-9481fbd478bc",
+            "actions": [
+                {
+                    "name": "AnyTap",
+                    "type": "Button",
+                    "id": "5e33187a-1cc5-4323-aeef-9f2d41f536b6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "629ac80f-cd4a-4dc4-a714-a005b1bb62a7",
+                    "path": "<Touchscreen>/primaryTouch/tap",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AnyTap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
